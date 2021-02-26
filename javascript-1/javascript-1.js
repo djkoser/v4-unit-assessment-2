@@ -282,7 +282,9 @@ let fidoSpeak = bark.call(fido)
 //CODE HERE
 
 function teachTrick (trick) {
-    this.tricks.push(trick);
+    let output = this.tricks; 
+    output.push(trick);
+    return output;
 }
 
 
@@ -294,6 +296,7 @@ function teachTrick (trick) {
 //CODE HERE
 
 let teachStay = teachTrick.bind(fido, 'stay'); 
+
   
 ////////////////////PROBLEM 14////////////////////
 /*
@@ -306,7 +309,7 @@ let teachStay = teachTrick.bind(fido, 'stay');
 //CODE HERE
 
 function dogIntro (treat,toy) {
-    return `${this.name} is a ${this.breed} that loves ${treat} and their ${toy}`
+    return `${this.name} is a ${this.breed} that loves ${treat} and their ${toy}!`
 }
 
 /*
