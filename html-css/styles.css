@@ -12,3 +12,133 @@ the font is called 'nunito' and can be found on google fonts
 ***you can use it if you'd like or you can choose your own***
 
 */
+* {
+  box-sizing: border-box;
+}
+
+body,
+main,
+header,
+footer {
+  margin: 0px;
+  width: 100vw;
+  font-family: 'Nunito', sans-serif;
+}
+
+a {
+  color: white;
+  margin-right: 50px;
+}
+
+header {
+  background-color: rgb(37, 37, 37);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+footer {
+  background-color: rgb(42, 171, 226);
+  height: 60px;
+  margin: 0px;
+  padding: 20px;
+  font-size: 14pt;
+  font-weight: 700;
+}
+
+h1 {
+  color: rgb(42, 171, 226);
+  display: inline-block;
+  margin: 0px;
+}
+
+h2 {
+  font-size: 15pt;
+}
+
+h4 {
+  font-size: 12pt;
+  color: rgb(42, 171, 226);
+  position: relative;
+  margin-left: 88%;
+  white-space: nowrap;
+}
+
+nav {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  justify-items: flex-end;
+  padding: 0px;
+}
+
+img {
+  width: 200px;
+  height: auto;
+}
+
+aside {
+  position: absolute;
+  top: 120px;
+  right: 2vw;
+}
+
+ol {
+  text-align: left;
+}
+
+#profileBox,
+#popularArticles {
+  border-radius: 2%;
+  -webkit-box-shadow: 0px 0px 15px 4px rgb(102, 75, 75, .3);
+  box-shadow: 0px 0px 15px 6px rgb(102, 75, 75, .3);
+  text-align: center;
+  padding: 35px;
+}
+
+span {
+  text-align: center;
+  font-weight: 900;
+  font-size: 13pt;
+}
+
+#name {
+  font-size: 18pt;
+}
+
+section {
+  width: 50vw;
+  margin-top: 50px;
+  margin-left: 10vw;
+}
+
+#questionFloaty {
+  width: 40px;
+  height: 40px;
+  border: solid black thick;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 18pt;
+  padding-top: 1px;
+  background-color: rgb(42, 171, 226);
+  position: fixed;
+  right: 2vw;
+  bottom: 10px;
+}
+
+#gallery {
+  margin-bottom: 20px;
+}
+
+.gallery {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.galleryImages {
+  margin: 20px;
+}
